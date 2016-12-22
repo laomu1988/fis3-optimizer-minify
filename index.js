@@ -2,7 +2,7 @@ var minifier = require('html-minifier');
 var minify = minifier.minify;
 var CleanCSS = require('clean-css');
 var uglifyJS = require('uglify-js');
-var _ = require('loadsh');
+var _ = require('lodash');
 
 
 module.exports = function (content, file, conf) {
