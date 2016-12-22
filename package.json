@@ -1,0 +1,30 @@
+{
+  "name": "fis3-optimizer-minify",
+  "version": "1.0.0",
+  "description": "fis3 minify html,js,css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laomu1988/fis3-optimizer-minify.git"
+  },
+  "keywords": [
+    "fis3",
+    "minify",
+    "optimizer"
+  ],
+  "author": "laomu1988",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laomu1988/fis3-optimizer-minify/issues"
+  },
+  "homepage": "https://github.com/laomu1988/fis3-optimizer-minify#readme",
+  "dependencies": {
+    "clean-css": "^3.4.23",
+    "html-minifier": "^3.2.3",
+    "lodash": "^4.17.2",
+    "uglify-js": "^2.7.5"
+  }
+}
