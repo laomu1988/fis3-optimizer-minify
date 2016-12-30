@@ -24,3 +24,8 @@ fis.match('*.{js,css}', {
     optimizer: fis.plugin('minify')
 });
 ```
+
+
+## todo:
+* [x] 当使用hook('relative')时,html压缩失败
+* [ ] 图片压缩png,jpg
